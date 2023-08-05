@@ -1,0 +1,63 @@
+.contact-bg {
+  background: url(../../assets/arty-gg0KaRAZ4pQ-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.contact-bg h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 3rem 0 2rem 0;
+  gap: 2rem;
+}
+input {
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 7px;
+}
+textarea {
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 7px;
+  resize: none;
+}
+button {
+  width: 50%;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+button:hover {
+  background: #222;
+  color: #fff;
+}
+@media (max-width: 900px) {
+  .contact-bg h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+}
